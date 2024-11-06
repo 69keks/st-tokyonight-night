@@ -1,4 +1,5 @@
 *.o
+*.orig
 st
 patches
 config.h

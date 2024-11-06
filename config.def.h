@@ -5,10 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Dina TTF:style=Regular:pixelsize=13";
+static char *font = "Dina:style=Regular:pixelsize=12";
 static char *sparefonts[] = {
     // Decent icons with comprehensive coverage.
-    "CaskaydiaCove Nerd Font:pixelsize=14",
+    "CaskaydiaCove Nerd Font:pixelsize=13",
 };
 
 static int borderpx = 0;
@@ -154,7 +154,7 @@ static const char *colorname[] = {
 	/* more colors can be added after 255 to use with DefaultXX */
 	[256] = "#c0caf5", // foreground
 	[257] = "#0f111b", // background
-	[258] = "#7dcfff", // cursor
+	[258] = "#c0caf5", // cursor
 
 	"#cccccc",
 	"#555555",
@@ -218,8 +218,8 @@ static unsigned int mousebg = 0;
 #define ALPHA_ALL
 
 /* bg opacity */
-float alpha = 0.96;
-float alpha_unfocused = 0.9;
+float alpha = 0.9;
+float alpha_unfocused = 0.84;
 
 /*
  * Force mouse select/shortcuts while mask is active (when MODE_MOUSE is set).
